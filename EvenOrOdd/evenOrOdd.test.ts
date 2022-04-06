@@ -1,4 +1,4 @@
-import { evenOrOdd } from "./script"
+import { evenOrOdd } from "./evenOrOdd"
 
 describe.each([
   [3, 4, "even"],

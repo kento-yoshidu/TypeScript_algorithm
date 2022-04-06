@@ -1,4 +1,4 @@
-import { coins } from "./script"
+import { coins } from "./Coins"
 
 describe.each([
   [1, 0, 0, 500, 1],
