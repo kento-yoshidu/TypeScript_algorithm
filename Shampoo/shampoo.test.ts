@@ -9,4 +9,3 @@ describe.each([
     expect(shampoo(a)).toBe(expected)
   })
 })
-

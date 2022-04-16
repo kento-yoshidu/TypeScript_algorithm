@@ -6,5 +6,5 @@ describe.each([
 ])("evenOrOdd", (a, b, expected) => {
   test('main', () => {
     expect(evenOrOdd(a, b)).toBe(expected)
-  }) 
+  })
 })
