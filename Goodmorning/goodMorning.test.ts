@@ -7,5 +7,5 @@ describe.each([
 ])("goodMorning", (a, expected) => {
   test("main", () => {
     expect(goodMorning(a)).toBe(expected)
-  }) 
+  })
 })
