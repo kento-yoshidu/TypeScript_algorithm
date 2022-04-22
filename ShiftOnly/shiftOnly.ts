@@ -18,8 +18,8 @@ function shift(array: number[], count: number): number {
     : count
 }
 
-export const shiftOnly2 = (_: number, nums: string) => {
-  const array = nums.split(' ').map((n) => parseInt(n, 10));
+export const shiftOnly2 = (_: number, input: string) => {
+  const array = input.split(' ').map(Number);
 
   return shift(array, 0)
 }
