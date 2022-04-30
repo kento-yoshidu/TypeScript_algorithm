@@ -3,6 +3,7 @@ const func = (seconds: number, speed: number, rest: number, X: number) => {
   let distance = 0
 
   while (true) {
+    // 1秒ごとに進んだ距離(b)とtimeを足していく
     for (let i = 0; i < seconds; i++) {
       distance += speed
       time++
@@ -11,7 +12,8 @@ const func = (seconds: number, speed: number, rest: number, X: number) => {
       }
     }
 
-    for (let i = 0; i < rest; i++) {
+    // 1秒ごとにtimeを足していく
+    for (let j = 0; j < rest; j++) {
       time++
       if (time === X) {
         return distance
