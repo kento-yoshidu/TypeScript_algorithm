@@ -9,5 +9,3 @@ export const tshirt = (input: string): number => {
     return 0.0
   }
 }
-
-// 30 500 20 103

@@ -1,3 +1,3 @@
-export const ASCIICode = (input: string) => {
+export const asciiCode = (input: string) => {
   return String.fromCharCode(Number(input))
 }
