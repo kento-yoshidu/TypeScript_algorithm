@@ -1,5 +1,5 @@
 export const shiftOnly = (_: number, nums: string) => {
-  let array = nums.split(' ').map((n) => parseInt(n, 10));
+  let array = nums.split(" ").map((n) => parseInt(n, 10))
   let count = 0
 
   while (array.every((num) => num % 2 === 0)) {
@@ -19,7 +19,7 @@ function shift(array: number[], count: number): number {
 }
 
 export const shiftOnly2 = (_: number, input: string) => {
-  const array = input.split(' ').map(Number);
+  const array = input.split(" ").map(Number)
 
   return shift(array, 0)
 }

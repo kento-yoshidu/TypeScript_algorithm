@@ -1,10 +1,10 @@
-import { ASCIICode } from "./ASCIICode"
+import { asciiCode } from "./ASCIICode"
 
 describe.each([
   ["97", "a"],
   ["122", "z"]
 ])("ASCIICode", (a, expected) => {
   test("main", () => {
-    expect(ASCIICode(a)).toBe(expected)
+    expect(asciiCode(a)).toBe(expected)
   })
 })

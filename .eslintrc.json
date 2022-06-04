@@ -4,7 +4,7 @@
     "es2021": true
   },
   "extends": [
-    "google"
+    "eslint-config-google"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -20,6 +20,7 @@
     "max-len": "off",
     "comma-dangle": ["warn", "never"],
     "object-curly-spacing": ["warn", "always"],
-    
+    "require-jsdoc" : "off",
+    "operator-linebreak": "off"
   }
 }
