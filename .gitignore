@@ -1,5 +1,10 @@
+Cargo.lock
+Cargo.toml
+
 *.log
 
 node_modules/
 __pycache__/
+src/
+target/
 
