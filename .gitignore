@@ -5,6 +5,8 @@ Cargo.toml
 
 node_modules/
 __pycache__/
-src/
 target/
 
+# Rust
+
+Rust/src/target/
