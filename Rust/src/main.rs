@@ -1,7 +1,7 @@
 mod intersection;
+mod euclidean_algorithm;
 
 fn main() {
-    println!("Hello, world!");
-
-    intersection::intersection::run();
+    println!("{}", intersection::intersection::run(0, 3, 1, 5));
+    println!("{}", euclidean_algorithm::euclidean_algorithm::run(20, 10));
 }
