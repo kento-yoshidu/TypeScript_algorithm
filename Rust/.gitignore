@@ -3,4 +3,4 @@ Cargo.toml
 
 *.log
 
-Rust/src/target/
+target/
