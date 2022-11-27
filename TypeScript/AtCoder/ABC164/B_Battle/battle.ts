@@ -15,3 +15,9 @@ export const battle = (input: string) => {
     }
   }
 }
+
+export const battle2 = (input: string) => {
+  const [tHp, tAt, aHp, aAt] = input.split(" ").map(Number)
+
+  return Math.ceil(tHp / aAt) >= Math.ceil(aHp / tAt) ? "Yes" : "No"
+}

@@ -6,5 +6,8 @@ describe.each([
 ])("Battle", (a, expected) => {
   test("main", () => {
     expect(battle(a)).toBe(expected)
+  }),
+  test("2nd", () => {
+    expect(battle(a)).toBe(expected)
   })
 })
