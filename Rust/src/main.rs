@@ -31,6 +31,5 @@ mod abc200_b_200th;
 */
 
 fn main() {
-    // println!("{}", ABC137::a_plus_minus_x::run(&10, &20));
-    println!("Hello World");
+    println!("{}", ABC137::a_plus_minus_x::run(10, 20));
 }
