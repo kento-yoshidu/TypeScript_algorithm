@@ -12,10 +12,9 @@ mod abc164;
 mod abc165;
 mod abc169;
 mod abc200;
-mod abc206;
 mod abc208;
 mod abc216;
 
 fn main() {
-    println!("Hello WOrld");
+    println!("Hello World");
 }
