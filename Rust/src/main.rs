@@ -1,3 +1,4 @@
+mod abc064;
 mod abc083;
 mod abc086;
 mod abc087;
@@ -18,5 +19,5 @@ mod abc261;
 mod abc276;
 
 fn main() {
-    println!("{}", abc087::a_buying_sweets::run(1234, 150, 100));
+    println!("{}", abc064::a_rgb_cards::run(4, 3, 2));
 }
