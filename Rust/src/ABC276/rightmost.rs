@@ -1,4 +1,4 @@
-pub fn right_most(input: &str) -> i8 {
+pub fn run(input: &str) -> i8 {
     let mut result: i8 = -1;
 
     for (i, c) in input.chars().enumerate() {
@@ -16,8 +16,8 @@ mod tests {
 
     #[test]
     fn test() {
-        assert_eq!(right_most("abcdaxayz"), 7);
-        assert_eq!(right_most("bcbbbz"), -1);
-        assert_eq!(right_most("aaaaa"), 5);
+        assert_eq!(run("abcdaxayz"), 7);
+        assert_eq!(run("bcbbbz"), -1);
+        assert_eq!(run("aaaaa"), 5);
     }
 }

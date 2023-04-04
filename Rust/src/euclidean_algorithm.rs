@@ -1,1 +1,0 @@
-pub mod euclidean_algorithm;
