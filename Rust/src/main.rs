@@ -1,5 +1,6 @@
 mod abc083;
 mod abc086;
+mod abc087;
 mod abc088;
 mod abc118;
 mod abc127;
@@ -17,5 +18,5 @@ mod abc261;
 mod abc276;
 
 fn main() {
-    println!("Hello World");
+    println!("{}", abc087::a_buying_sweets::run(1234, 150, 100));
 }
