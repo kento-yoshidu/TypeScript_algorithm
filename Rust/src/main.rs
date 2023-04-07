@@ -10,11 +10,11 @@ mod abc153;
 mod abc162;
 mod abc164;
 mod abc165;
-mod abc169;
-mod abc200;
 mod abc208;
 mod abc216;
 
 fn main() {
     println!("Hello World");
+
+    println!("{}", atcoder::abc081::a_placing_marbles::run("101"));
 }
