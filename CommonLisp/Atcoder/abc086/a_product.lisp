@@ -1,4 +1,4 @@
-; aとbの積を2で割り、余りが0ならEven、0でないなｋらOddを返す
+; aとbの積を2で割り、余りが0ならEven、0でないならOddを返す
 (defun product (a b)
   (if (eq (mod (* a b) 2) 0)
     'Even
