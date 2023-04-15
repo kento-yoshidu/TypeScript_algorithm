@@ -5,6 +5,7 @@ pub mod abc086;
 pub mod abc087;
 pub mod abc088;
 pub mod abc118;
+pub mod abc125;
 pub mod abc127;
 pub mod abc128;
 pub mod abc137;

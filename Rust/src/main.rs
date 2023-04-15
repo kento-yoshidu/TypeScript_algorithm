@@ -20,7 +20,7 @@ mod atcoder;
 
 fn main() {
     println!("Hello World");
-    atcoder::abc128::a_apple_pie::run(1, 3);
-    atcoder::abc128::a_apple_pie::run(0, 1);
-    atcoder::abc128::a_apple_pie::run(32, 21);
+    println!("{}", atcoder::abc125::a_biscuit_generator::run(3, 5, 7));
+    println!("{}", atcoder::abc125::a_biscuit_generator::run(3, 2, 9));
+    println!("{}", atcoder::abc125::a_biscuit_generator::run(20, 20, 19));
 }
