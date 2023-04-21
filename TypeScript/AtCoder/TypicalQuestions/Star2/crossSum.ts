@@ -45,5 +45,3 @@ export const test = () => {
 
   console.log(ans)
 }
-
-test()
