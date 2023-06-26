@@ -10,4 +10,7 @@
   main(require("fs").readFileSync("/dev/stdin", "utf8"));
 */
 
-console.log("Hello World")
+import { _1_21 } from "./AtCoder/ABC0xx/ABC086/B_1_21/_1_21"
+
+console.log(_1_21(1, 22))
+
