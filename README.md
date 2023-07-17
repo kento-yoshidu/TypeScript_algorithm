@@ -1,4 +1,16 @@
-# algorithm
+# TypeScript_algorithm
+
+## install
+
+```shell
+$ yarn install
+```
+
+## test
+
+```shell
+$ npx jest
+```
 
 ## ビット全探索
 
