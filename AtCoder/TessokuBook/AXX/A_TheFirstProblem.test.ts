@@ -1,4 +1,4 @@
-import { theFirstBook } from "./A_TheFirstProblem"
+import { theFirstBook } from "./A01_TheFirstProblem"
 
 describe.each([
   [2, 4],
