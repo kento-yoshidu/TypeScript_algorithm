@@ -17,9 +17,3 @@ export const substring = (s: string, t: string) => {
 
   return ans
 }
-
-substring("cabacc", "abc")
-//=> 1
-
-substring("codeforces", "atcoder")
-//=> 6
