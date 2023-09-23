@@ -1,6 +1,6 @@
 // https://atcoder.jp/contests/abc022/tasks/abc022_a
 
-export const bestBody = (n: number, s: number, t: number, w: number[]) => {
+export const bestBody = (_n: number, s: number, t: number, w: number[]) => {
   const arr: number[] = []
 
   w.map((w, index) => {
